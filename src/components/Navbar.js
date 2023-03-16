@@ -12,7 +12,7 @@ function Navbar() {
         </ul>
 
         <Link to='/' className='site-title'>
-            Site Name
+            <img src='../assets/images/logo.svg' alt='Younique Jeans Website Logo'/>
         </Link>
 
         <ul>
