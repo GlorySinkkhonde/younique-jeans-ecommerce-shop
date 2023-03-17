@@ -1,0 +1,37 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 15rem ;
+}
+
+.nav__first-nav, .nav__second-nav{
+    display: flex;
+    gap: 5rem;
+}
+
+.nav__first-nav{
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav li.active > a{
+    color: red;
+    text-decoration: underline;
+}
