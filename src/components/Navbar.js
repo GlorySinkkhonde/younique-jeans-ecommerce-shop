@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 import { FaShoppingCart } from 'react-icons/fa'
-import MyImage from '../assets/images/logo.svg'
+import WebsiteLogo from '../assets/images/logo.png'
 
 function Navbar() {
   return (
@@ -14,13 +14,13 @@ function Navbar() {
         </ul>
 
         <Link to='/' className='site-logo'>
-            <img src={MyImage} alt="Younique Jeans Website Logo" />
+            <img src={WebsiteLogo} alt='Younique Jeans Website Logo' />
         </Link>
 
         <ul className='nav__second-nav'>
             <CustomLink to='/contact'>Contact</CustomLink>
             <CustomLink to='/your-account'>Your Account</CustomLink>
-            <CustomLink to='/cart'> <FaShoppingCart /> 0 </CustomLink>
+            <CustomLink to='/cart'> <span className='cart-icon' ><FaShoppingCart /></span> <span className='item-total'>0</span> </CustomLink>
         </ul>
     </nav>
   )

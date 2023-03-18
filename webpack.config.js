@@ -19,7 +19,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /.js$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
@@ -42,6 +42,11 @@ module.exports = {
             {
                 test: /\.(html)$/, 
                 use: ['html-loader']
+            },
+
+            {
+                test: /\.svg$/,
+                use: ['@svgr/webpack'],
             }
         ]
     }
