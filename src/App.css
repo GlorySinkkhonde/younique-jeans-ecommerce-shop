@@ -1,3 +1,9 @@
+:root{
+    --main-color: #4D4E63;
+    --secondary-color: #FF93AC;
+    --accent-color: #717AF0;
+}
+
 *, ::before, ::after{
     box-sizing: border-box;
     margin: 0;
@@ -11,9 +17,13 @@ img{
     width: 100%;
 }
 
-.site-logo{
+.site-logo-1{
     width: 6rem;
     visibility: visible; 
+}
+
+.site-logo-2{
+    display: none; 
 }
 
 ul{
@@ -21,27 +31,22 @@ ul{
 }
 
 .nav{
+    width: 80%;
     display: flex;
-    align-items: center;
-    margin: 2rem;
+    margin: 1rem;
+}
+.nav--visible{
+    display: block;
+    margin: 8rem auto;
 }
 
 .nav__primary-nav{
-    display: flex;
-    align-items: center;
-    visibility: hidden;
+    display: none;
 }
 
-.nav__primary-nav-1{
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    flex-direction: row-reverse;
-}
-
-.nav__first-nav, .nav__second-nav{
-    display: flex;
-    gap: 3rem;
+.nav--visible > ul > li{
+    padding: 1rem 0;
+    text-align: center;
 }
 
 .nav-toggle{
@@ -50,7 +55,7 @@ ul{
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    background-color: red;
+    background-color: var(--main-color);
     position: absolute;
     right: 0;
     margin: 2rem;
@@ -63,7 +68,7 @@ ul{
 
 .hamburger, .hamburger::before, .hamburger::after{
     display: block;
-    height: 2px;
+    height: 3px;
     border-radius: 5px;
     background-color: white;
     margin: 0 auto;
@@ -82,16 +87,12 @@ ul{
     transform: translateY(3px);
 }
 
-.nav__first-nav{
-    display: flex;
-}
-
 .nav a{
     text-decoration: none;
 }
 
 .nav li.active > a{
-    color: red;
+    color: var(--accent-color);
     text-decoration: underline;
 }
 
@@ -104,11 +105,34 @@ ul{
 .item-total{
     position: absolute;
     font-size: 12px;
-    top: 5%;
+    top: 45.5%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 901px) {
     body{
-        background-color: black;
+        background-color: blue;
+    }
+
+    .nav{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .site-logo-1{
+        display: none; 
+    }
+
+    .site-logo-2{
+        width: 6rem;
+        display: block; 
+    }
+
+    .nav-toggle{
+        display: none;
+    }
+
+    .nav__primary-nav{
+        display: block;
+        margin: 0 4rem;
     }
 }
