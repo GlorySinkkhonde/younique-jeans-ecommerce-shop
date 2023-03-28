@@ -29,7 +29,7 @@ function Navbar() {
                 </ul>
 
                 <Link to='/' className='site-logo-2'>
-            <img src={WebsiteLogo} alt='Younique Jeans Website Logo' />
+                <img src={WebsiteLogo} alt='Younique Jeans Website Logo' />
         </Link>
            
         
