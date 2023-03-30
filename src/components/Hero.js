@@ -21,6 +21,7 @@ function Hero() {
         <div className='circle-2'></div>
         <div className='circle-3'></div>
     </div>
+    
   )
 }
 
