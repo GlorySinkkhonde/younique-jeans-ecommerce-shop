@@ -168,10 +168,6 @@ ul{
     margin-top: 1.3rem;
 }
 
-.product-image-1{
-
-}
-
 .product-box-1{
     width: 80%;
     border: 1px solid black;
@@ -199,6 +195,80 @@ ul{
     font-size: 17px;
     font-weight: 600;
     color: white;
+}
+
+.testimonials-wrapper-heading{
+    text-align: center;
+    color: var(--main-color);
+}
+
+.testimonials-wrapper-heading > h3{
+    font-weight: 400;
+    margin-top: 1.3rem;
+}
+
+.testimonial-box-1{
+    margin: 4rem 20%;
+    background-color: var(--main-color);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.testimonial-box-image-1{
+    border-radius: 50%;
+    width: 85%;
+    margin: 0 8%;
+    margin-bottom: 1rem;
+}
+
+.testimonial-box-1 > h2{
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-box-1 > p{
+    font-weight: 400;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--main-color);
+    color: white;
+}
+
+ul > li{
+    color: white;
+}
+
+.footer__nav{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.footer li > a{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer li > a:hover{
+    color: var(--accent-color);
+}
+
+.footer__section-1{
+    width: 65%;
+}
+
+.footer__section-2{
+    width: 30%;
 }
 
 @media only screen and (min-width: 900px) {
@@ -326,6 +396,16 @@ ul{
     }
 
     .product-box-1{
+        margin: 4rem 2%;
+    }
+
+    .testimonial-containers{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .testimonial-box-1{
         margin: 4rem 2%;
     }
 }
