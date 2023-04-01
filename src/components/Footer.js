@@ -64,11 +64,12 @@ function Footer() {
 
             <section className='footer__section-2'>
 
-                <form>
+                <form className='form'>
                     <h1>Join Our Newsletter</h1>
                     <input placeholder='Name'/> 
                     <br></br>
                     <input placeholder='Email'/>
+                    <br></br>
                     <button>Join</button>
                 </form>
 
