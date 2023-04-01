@@ -23,8 +23,8 @@ function Navbar() {
         <div className={isVisible ? 'nav--visible' : 'nav__primary-nav'}>
 
                 <ul className='nav__first-nav'>
-                <CustomLink to='/shop'>Shop</CustomLink>
-                <CustomLink to='/'>Home</CustomLink>
+                <CustomLink to='/'>Shop</CustomLink>
+                <CustomLink to='/shop'>Home</CustomLink>
                 <CustomLink to='/about'>About</CustomLink>
                 </ul>
 

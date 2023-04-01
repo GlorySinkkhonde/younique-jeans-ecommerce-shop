@@ -1,0 +1,32 @@
+.shop-header{
+    margin: 5rem 0 5rem;
+    text-align: center;
+}
+
+.shop-header > h1{
+    font-size: 90px;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+}
+
+.shop-header > h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 900px){
+    .shop-header{
+        margin: 5rem 0 5rem;
+    }
+    
+    .shop-header > h1{
+        font-size: 128px;
+        margin-bottom: 4rem;
+    }
+    
+    .shop-header > h3{
+        font-size: 42px;
+    }
+}

@@ -1,8 +1,11 @@
 import React from 'react'
+import ShopHeader from '../components/ShopHeader'
 
 function Shop() {
   return (
-    <div>This is the shop page</div>
+    <div>
+      <ShopHeader />
+    </div>
   )
 }
 

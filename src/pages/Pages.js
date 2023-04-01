@@ -12,16 +12,14 @@ function pages() {
   return (
     <div>
         <div className='container'>
-          <AnimatePresence>
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/shop' element={<Home />} />
                 <Route path='/about' element={<About />} />
-                <Route path='/shop' element={<Shop />} />
+                <Route path='/' element={<Shop />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/your-account' element={<Account />} />
                 <Route path='/cart' element={<Cart />} />
             </Routes>
-          </AnimatePresence>
         </div>
     </div>
   )
