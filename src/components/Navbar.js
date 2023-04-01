@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../App.css'
+import './Navbar.css'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 import { FaShoppingCart } from 'react-icons/fa'
 import WebsiteLogo from '../assets/images/logo.png'

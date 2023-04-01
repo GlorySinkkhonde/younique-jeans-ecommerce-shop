@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css'
+import './Footer.css'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 import { FaShoppingCart } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'

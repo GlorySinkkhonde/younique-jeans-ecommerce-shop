@@ -1,4 +1,5 @@
 import React from 'react'
+import './Trending.css'
 import Image1 from '../assets/images/1.png'
 
 function Trending() {

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Testimonials.css'
 import AmandaWright from '../assets/images/amanda-wright.jpg'
 
 function Testimonials() {

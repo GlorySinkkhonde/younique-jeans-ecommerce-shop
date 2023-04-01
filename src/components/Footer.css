@@ -1,0 +1,158 @@
+:root{
+    --main-color: #4D4E63;
+    --secondary-color: #FF93AC;
+    --accent-color: #717AF0;
+}
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.footer{
+    padding: 3rem;
+    background-color: var(--main-color);
+    color: white;
+}
+
+ul > li{
+    color: white;
+}
+
+.footer__nav{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footer__info{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5rem 2rem;
+}
+
+.footer li > a{
+    color: white;
+    text-decoration: underline;
+    margin-bottom: .3rem;
+}
+
+.footer li > a:hover{
+    color: var(--accent-color);
+}
+
+.footer_primary-nav > h1, .footer_secondary-nav > h1, .footer__social > h1, .footer__payments > h1{
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+.footer__social > span, .footer__payments > span {
+    font-size: 1.5rem;
+}
+
+.footer__social > span:hover, .footer__payments > span:hover{
+    color: var(--accent-color);
+}
+
+.form{
+    width: 60%;
+    margin-left: 2.5rem;
+    border: 1px solid white;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.form > h1 {
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.form > input {
+    font-size: 16px;
+    padding: .8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    color: var(--main-color); 
+    outline: none;
+}
+
+.form > button{
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    background-color: var(--secondary-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+
+.form > button:hover{
+    background-color: var(--accent-color);
+}
+
+@media only screen and (min-width: 900px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__section-1{
+        margin-left: 7rem;
+        width: 40%;
+    }
+
+    .footer__section-2{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .form{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .footer__nav{
+        flex-direction: column;
+    }
+
+    .footer__info{
+        flex-direction: column;
+    }
+
+    .footer_primary-nav{
+        margin-bottom: 2rem;
+    }
+
+    .footer__social{
+        margin-bottom: 2rem;
+    }
+
+    .form{
+        width: 90%;
+        margin-left: 1rem;
+        border: 1px solid white;
+        text-align: center;
+        padding: 2rem;
+    }
+}
+
+
