@@ -1,8 +1,11 @@
 import React from 'react'
+import CartHeader from '../components/CartHeader'
 
 function Cart() {
   return (
-    <div>cart</div>
+    <div>
+      <CartHeader />
+    </div>
   )
 }
 

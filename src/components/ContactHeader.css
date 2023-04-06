@@ -1,0 +1,28 @@
+.contact-header{
+    margin: 5rem 0 5rem;
+    text-align: center;
+}
+
+.contact-header > h1{
+    font-size: 70px;
+    color: var(--main-color);
+}
+
+@media screen and (min-width: 900px){
+
+    .contact-header{
+        margin: 5rem 0 5rem;
+    }
+    
+    .contact-header > h1{
+        font-size: 128px;
+        margin-bottom: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .contact-header > h1{
+        font-size: 50px;
+    }   
+}

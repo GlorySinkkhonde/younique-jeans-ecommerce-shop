@@ -1,8 +1,13 @@
 import React from 'react'
+import ContactHeader from '../components/ContactHeader'
+import ContactInfoSection from '../components/ContactInfoSection'
 
 function Contact() {
   return (
-    <div>contact</div>
+    <div>
+      <ContactHeader />
+      <ContactInfoSection />
+    </div>
   )
 }
 

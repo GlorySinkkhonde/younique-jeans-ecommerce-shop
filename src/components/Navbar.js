@@ -24,8 +24,8 @@ function Navbar() {
 
                 <ul className='nav__first-nav'>
                 <CustomLink to='/shop'>Shop</CustomLink>
-                <CustomLink to='/about'>Home</CustomLink>
-                <CustomLink to='/'>About</CustomLink>
+                <CustomLink to='/cart'>Home</CustomLink>
+                <CustomLink to='/about'>About</CustomLink>
                 </ul>
 
                 <Link to='/' className='site-logo-2'>
@@ -34,9 +34,9 @@ function Navbar() {
            
         
             <ul className='nav__second-nav'>
-                <CustomLink to='/contact'>Contact</CustomLink>
+                <CustomLink to='/'>Contact</CustomLink>
                 <CustomLink to='/your-account'>Your Account</CustomLink>
-                <CustomLink to='/cart'> <span className='cart-icon' ><FaShoppingCart /></span> <span className='item-total'>0</span> </CustomLink>
+                <CustomLink to='/'> <span className='cart-icon' ><FaShoppingCart /></span> <span className='item-total'>0</span> </CustomLink>
             </ul>
 
         </div>

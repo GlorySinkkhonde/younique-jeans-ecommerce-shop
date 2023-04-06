@@ -13,12 +13,12 @@ function pages() {
     <div>
         <div className='container'>
             <Routes>
-                <Route path='/about' element={<Home />} />
-                <Route path='/' element={<About />} />
+                <Route path='/cart' element={<Home />} />
+                <Route path='/about' element={<About />} />
                 <Route path='/shop' element={<Shop />} />
-                <Route path='/contact' element={<Contact />} />
+                <Route path='contact' element={<Contact />} />
                 <Route path='/your-account' element={<Account />} />
-                <Route path='/cart' element={<Cart />} />
+                <Route path='/' element={<Cart />} />
             </Routes>
         </div>
     </div>
