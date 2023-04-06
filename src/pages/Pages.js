@@ -13,9 +13,9 @@ function pages() {
     <div>
         <div className='container'>
             <Routes>
-                <Route path='/shop' element={<Home />} />
-                <Route path='/about' element={<About />} />
-                <Route path='/' element={<Shop />} />
+                <Route path='/about' element={<Home />} />
+                <Route path='/' element={<About />} />
+                <Route path='/shop' element={<Shop />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/your-account' element={<Account />} />
                 <Route path='/cart' element={<Cart />} />

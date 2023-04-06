@@ -24,12 +24,16 @@ ul > li{
 
 .footer li > a{
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
     margin-bottom: .3rem;
 }
 
 .footer li > a:hover{
     color: var(--accent-color);
+}
+
+.footer_primary-nav > li.active > a{
+    text-decoration: underline;
 }
 
 .footer_primary-nav > h1, .footer_secondary-nav > h1, .footer__social > h1, .footer__payments > h1{

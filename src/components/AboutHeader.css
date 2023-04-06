@@ -1,0 +1,22 @@
+.about-header{
+    margin: 5rem 0 7rem;
+    text-align: center;
+}
+
+.about-header > h1{
+    font-size: 70px;
+    color: var(--main-color);
+}
+
+@media screen and (min-width: 900px){
+
+    .about-header{
+        margin: 5rem 0 5rem;
+    }
+    
+    .about-header > h1{
+        font-size: 128px;
+        margin-bottom: 4rem;
+    }
+    
+}
