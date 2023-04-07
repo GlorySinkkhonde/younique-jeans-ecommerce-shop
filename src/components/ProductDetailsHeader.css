@@ -1,0 +1,28 @@
+.details__header{
+    margin: 5rem 0 5rem;
+    text-align: center;
+}
+
+.details__header > h1{
+    font-size: 60px;
+    color: var(--main-color);
+}
+
+@media screen and (min-width: 900px){
+
+    .details__header{
+        margin: 5rem 0 5rem;
+    }
+    
+    .details__header > h1{
+        font-size: 110px;
+        margin-bottom: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .details__header > h1{
+        font-size: 45px;
+    }   
+}
