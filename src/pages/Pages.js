@@ -6,7 +6,7 @@ import About from './about'
 import Shop from './shop'
 import Cart from './cart'
 import Contact from './contact'
-import Account from './account'
+import Account from './Account'
 import Details from './Details'
 
 function pages() {
@@ -14,12 +14,12 @@ function pages() {
     <div>
         <div className='container'>
             <Routes>
-                <Route path='/details' element={<Home />} />
+                <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/shop' element={<Shop />} />
                 <Route path='contact' element={<Contact />} />
                 <Route path='/your-account' element={<Account />} />
-                <Route path='/' element={<Details />} />
+                <Route path='/details' element={<Details />} />
                 <Route path='/cart' element={<Cart />} />
             </Routes>
         </div>

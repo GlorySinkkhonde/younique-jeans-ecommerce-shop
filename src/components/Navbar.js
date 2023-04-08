@@ -24,7 +24,7 @@ function Navbar() {
 
                 <ul className='nav__first-nav'>
                 <CustomLink to='/shop'>Shop</CustomLink>
-                <CustomLink to='/details'>Home</CustomLink>
+                <CustomLink to='/'>Home</CustomLink>
                 <CustomLink to='/about'>About</CustomLink>
                 </ul>
 

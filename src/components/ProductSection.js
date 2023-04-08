@@ -6,7 +6,9 @@ import ProductDetailsImage from '../assets/images/17.png'
 
 function ProductSection() {
   return (
-    <div className='product'>
+    <>
+
+      <div className='product'>
         <div className='product__image'>
             <img src={ProductDetailsImage} alt='' />
         </div>
@@ -30,8 +32,10 @@ function ProductSection() {
 
         </div>
         
-
     </div>
+
+    <div className='product__divider'></div>
+    </>
   )
 }
 
