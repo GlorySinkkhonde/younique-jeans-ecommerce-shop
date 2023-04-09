@@ -53,7 +53,7 @@ function Categories() {
              
             </section>
 
-            <div className='divider'></div>
+           {<div className='divider'></div>}
 
         </div>
 

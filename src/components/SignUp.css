@@ -1,6 +1,6 @@
 .sign-up{
     background-color: var(--accent-color);
-    height: 100vh;
+    height: 120vh;
 }
 
 .sign-up__wrapper{
@@ -144,6 +144,9 @@
 
 
 @media screen and (min-width: 800px){
+    .sign-up{
+        height: 100vh;
+    }
 
     .sign-up__wrapper{
         padding-top: 2rem;

@@ -26,7 +26,24 @@ function CartProducts() {
 
         </div>
 
-        <div className='product__divider'></div>
+        <div className='cart__product-1'>
+
+            <div className='cart__product-section-1'>
+                <img src={ProductImage} alt='' />
+                <h3>Boyfriend Jeans</h3>
+            </div>
+
+            <div className='cart__product-section-2'>
+                <div className='product__counter'>
+                    <span> <AiOutlineMinus /> </span>
+                    <span> 2 </span>
+                    <span> <AiOutlinePlus /> </span>
+                </div>
+
+                <h3>$29.99</h3>
+            </div>
+
+        </div>
 
         <div className='cart__product-1'>
 
@@ -47,7 +64,24 @@ function CartProducts() {
 
         </div>
 
-        <div className='product__divider'></div>
+        <div className='cart__product-1'>
+
+            <div className='cart__product-section-1'>
+                <img src={ProductImage} alt='' />
+                <h3>Boyfriend Jeans</h3>
+            </div>
+
+            <div className='cart__product-section-2'>
+                <div className='product__counter'>
+                    <span> <AiOutlineMinus /> </span>
+                    <span> 2 </span>
+                    <span> <AiOutlinePlus /> </span>
+                </div>
+
+                <h3>$29.99</h3>
+            </div>
+
+        </div>
 
         <div className='cart__product-1'>
 
@@ -68,8 +102,6 @@ function CartProducts() {
 
         </div>
 
-        <div className='product__divider'></div>
-
         <div className='cart__product-1'>
 
             <div className='cart__product-section-1'>
@@ -88,50 +120,6 @@ function CartProducts() {
             </div>
 
         </div>
-
-        <div className='product__divider'></div>
-
-        <div className='cart__product-1'>
-
-            <div className='cart__product-section-1'>
-                <img src={ProductImage} alt='' />
-                <h3>Boyfriend Jeans</h3>
-            </div>
-
-            <div className='cart__product-section-2'>
-                <div className='product__counter'>
-                    <span> <AiOutlineMinus /> </span>
-                    <span> 2 </span>
-                    <span> <AiOutlinePlus /> </span>
-                </div>
-
-                <h3>$29.99</h3>
-            </div>
-
-        </div>
-
-        <div className='product__divider'></div>
-
-        <div className='cart__product-1'>
-
-            <div className='cart__product-section-1'>
-                <img src={ProductImage} alt='' />
-                <h3>Boyfriend Jeans</h3>
-            </div>
-
-            <div className='cart__product-section-2'>
-                <div className='product__counter'>
-                    <span> <AiOutlineMinus /> </span>
-                    <span> 2 </span>
-                    <span> <AiOutlinePlus /> </span>
-                </div>
-
-                <h3>$29.99</h3>
-            </div>
-
-        </div>
-
-        <div className='product__divider'></div>
 
     </div>
   )

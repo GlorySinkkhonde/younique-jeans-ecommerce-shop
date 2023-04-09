@@ -3,9 +3,9 @@ import { Route, Routes } from "react-router-dom"
 import { motion, AnimatePresence } from 'framer-motion'
 import Home from './Home'
 import About from './about'
-import Shop from './shop'
+import Shop from './Shop'
 import Cart from './cart'
-import Contact from './contact'
+import Contact from './Contact'
 import Account from './Account'
 import Details from './Details'
 

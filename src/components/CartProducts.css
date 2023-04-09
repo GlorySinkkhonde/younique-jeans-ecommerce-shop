@@ -52,9 +52,33 @@ span{
     background-color: #7f86eb;
 }
 
-.product__divider{
-    height: 1px;
-    width: 87.5%;
-    margin: 0 auto;
-    background-color: var(--main-color);
+@media screen and (min-width: 650px) {
+
+    .cart__product-section-1{
+        width: 50%;
+    }
+
+    .cart__product-section-2{
+        gap: 8rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .cart__product-section-1{
+        width: 35%;
+    }
+
+    .cart__product-section-2{
+        gap: 12rem;
+    }
+
+    .cart{
+        font-size: 16px;
+    }
+
+    .cart__product-section-1 > img{
+        width: 35%;
+    }
+
 }

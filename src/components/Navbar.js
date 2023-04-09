@@ -36,7 +36,6 @@ function Navbar() {
             <ul className='nav__second-nav'>
                 <CustomLink to='/contact'>Contact</CustomLink>
                 <CustomLink to='/your-account'>Your Account</CustomLink>
-                <CustomLink to=''>Details</CustomLink>
                 <CustomLink to='/cart'> <span className='cart-icon' ><FaShoppingCart /></span> <span className='item-total'>0</span> </CustomLink>
             </ul>
 

@@ -1,5 +1,18 @@
+.reviews__wrapper{
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.reviews__header{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--main-color);
+}
+
 .reviews{
-    width: 80%;
+    width: 90%;
     margin: 4rem auto;
     color: var(--main-color);
     border: 1px solid #757575;
@@ -14,14 +27,14 @@
 }
 
 .reviwer__info > img{
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
 }
 
 .reviwer__info > div > span{
     color: #DA8536;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .reviwer__info > div > h4{
@@ -31,9 +44,69 @@
     margin-top: -.5rem;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 500px){
+
     .reviews__wrapper{
+        width: 65%;
+    }
+
+}
+
+@media screen and (min-width: 750px){
+
+    .reviews__wrapper{
+        width: 55%;
+    }
+
+}
+
+@media screen and (min-width: 900px){
+
+    .reviews__header{
+        font-size: 40px;
+        margin-bottom: -2rem;
+    }
+
+    .reviews__wrapper{
+        width: 95%;
         display: flex;
         gap: 1rem;
     }
+
+    .reviwer__info > div > span{
+        font-size: 24px;
+    }
+
+    .reviwer__info > img{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+
+    .reviews__wrapper{
+        width: 85%;
+    }
+
+    .reviwer__info > div > span{
+        font-size: 30px;
+    }
+    
+    .reviwer__info > img{
+        width: 7rem;
+        height: 8rem;
+        border-radius: 50%;
+    }
+
+}
+
+@media screen and (min-width: 1600px){
+
+    .reviews__wrapper{
+        width: 75%;
+    }
+
 }

@@ -5,6 +5,10 @@ import { AiFillStar } from 'react-icons/ai'
 
 function Reviews() {
   return (
+  <>
+
+    <h2 className='reviews__header'>Reviews</h2> 
+
     <div className='reviews__wrapper'>
 
       <div className='reviews'>
@@ -86,6 +90,7 @@ function Reviews() {
       </div>
 
     </div>
+  </>
   )
 }
 

@@ -1,5 +1,6 @@
 .testimonials-wrapper{
-    margin: 0 5rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .testimonials-wrapper-heading{
@@ -7,13 +8,20 @@
     color: var(--main-color);
 }
 
+.testimonials-wrapper-heading > h1{
+    margin-bottom: .8rem;
+    font-size: 30px;
+}
+
 .testimonials-wrapper-heading > h3{
+    font-size: 17px;
     font-weight: 400;
-    margin-top: 1.3rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .testimonial-box-1{
-    margin: 4rem 20%;
+    margin: 3rem 20%;
     background-color: var(--main-color);
     color: white;
     padding: 2rem;
@@ -31,15 +39,21 @@
 .testimonial-box-1 > h2{
     font-weight: 600;
     margin-bottom: 1.5rem;
+    font-size: 22px;
 }
 
 .testimonial-box-1 > p{
     font-weight: 400;
+    font-size: 14px;
 }
 
 @media only screen and (min-width: 900px) {
     body{
         overflow-x: hidden;
+    }
+
+    .testimonials-wrapper{
+        width: 95%;
     }
 
     .testimonial-containers{
@@ -51,6 +65,45 @@
     .testimonial-box-1{
         margin: 4rem 2%;
     }
+
+    .testimonials-wrapper-heading > h1{
+    margin-bottom: .8rem;
+    font-size: 30px;
+}
+
+.testimonials-wrapper-heading > h3{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 1.3rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.testimonials-wrapper-heading > h1{
+    margin-bottom: .8rem;
+    font-size: 40px;
+}
+
+.testimonials-wrapper-heading > h3{
+    font-size: 18px;
+}
+
+.testimonial-box-1 > h2{
+    font-size: 26px;
+}
+
+.testimonial-box-1 > p{
+    font-size: 16px;
+}
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .testimonials-wrapper{
+        width: 85%;
+    }
+    
 }
 
 
