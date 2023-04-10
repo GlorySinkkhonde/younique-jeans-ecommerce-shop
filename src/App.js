@@ -2,15 +2,14 @@ import React, { Component } from "react";
 import Pages from "./pages/Pages";
 import './App.css'
 
+function App() {
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <Pages />
-            </div>
-        )
-    }
+    return (
+        <div>
+            <Pages />
+        </div>
+    )
+
 }
 
 export default App;

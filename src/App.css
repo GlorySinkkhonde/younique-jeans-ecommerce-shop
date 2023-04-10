@@ -19,11 +19,29 @@ img{
     width: 100%;
 }
 
+.trending__products{
+    display: flex;
+}
+
+.Trending__products{
+    width: 90%;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 900px) {
     body{
         overflow-x: hidden;
     }
+
+    .Trending__products{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
 }
+
 
 
 
