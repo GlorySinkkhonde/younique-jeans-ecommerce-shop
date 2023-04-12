@@ -34,7 +34,7 @@ span{
 .cart__product-section-2{
     display: flex;
     font-size: 12px;
-    gap: .1rem;
+    gap: .2rem;
 }
 
 .product__counter > :nth-child(1), .product__counter > :nth-child(3) {
