@@ -4,13 +4,24 @@ import CartProducts from '../components/CartProducts'
 import CartCheckout from '../components/CartCheckout'
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import CartData from '../Data/CartData'
+import Divider from '../components/Divider';
 
 function Cart() {
+
+  const CartElements = CartData.map (cartItem =>{
+    return(
+      <CartProducts
+         {...cartItem}
+      />
+    )
+  })
+
   return (
     <div>
       <Navbar />
       <CartHeader />
-      <CartProducts />
+      {CartElements}
       <CartCheckout />
       <Footer />
     </div>

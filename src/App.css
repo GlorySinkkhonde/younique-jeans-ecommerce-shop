@@ -34,13 +34,45 @@ img{
     }
 
     .Trending__products{
-
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
     }
+
+    .Testimonials-elements{
+        display: flex;
+        width: 89%;
+        margin: 0 auto;
+    }
+
+    .categories-elements{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .product-elements{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+
 }
+
+@media screen and (min-width: 1400px) {
+    .categories-elements{
+        width: 80%;
+    }
+
+    .product-elements{
+        width: 80%;
+    }
+}
+
+
 
 
 

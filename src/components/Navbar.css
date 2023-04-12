@@ -26,6 +26,11 @@ ul{
     display: none;
 }
 
+.nav__first-nav, .nav__second-nav{
+    position: relative;
+    z-index: 1;
+}
+
 .nav--visible > ul > li{
     padding: 1rem 0;
     text-align: center;
@@ -71,11 +76,14 @@ ul{
 
 .nav a{
     text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
 
 .nav li.active > a{
     color: var(--accent-color);
     text-decoration: underline;
+    font-weight: 700;
 }
 
 .cart-icon{
@@ -87,12 +95,36 @@ ul{
 .item-total{
     position: absolute;
     font-size: 12px;
-    top: 45.5%;
+    top: 65%;
+    left: 69%;
+}
+
+@media only screen and (max-width: 900px){
+    .nav{
+        width: 80%;
+    }
+
+    .nav__wrapper{
+        background-color: #7179f0ad;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .nav{
+        width: 68%;
+    }
 }
 
 @media only screen and (min-width: 900px) {
     body{
         overflow-x: hidden;
+    }
+
+    .nav a{
+        text-decoration: none;
+        color: var(--main-color);
+        font-weight: 500;
     }
     
     .nav{
@@ -100,6 +132,11 @@ ul{
         justify-content: center;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        background-color: white;
+    }
+
+    .nav li.active > a{
+        font-weight: 500;
     }
 
     .site-logo-1{
@@ -138,6 +175,11 @@ ul{
 
     .item-total{
         top: 5%;
+    }
+
+    .item-total{
+        top: -30%;
+        left: 98%;
     }
 }
 

@@ -47,9 +47,13 @@
     padding: .8rem 3rem;
     border: none;
     background-color: var(--secondary-color);
-    color: white;
     font-weight: 600;
     font-family: 'Poppins', 'sans-serif';
+}
+
+.about__section-3 > button > a{
+    color: white;
+    text-decoration: none;
 }
 
 .about__section-3 > button:hover{

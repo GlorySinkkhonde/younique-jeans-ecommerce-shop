@@ -12,7 +12,7 @@ span{
     padding: 0 .3rem;
 }
 
-.cart__product-1{
+.cart__product{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,6 @@ span{
 
 .product__counter > :nth-child(1), .product__counter > :nth-child(3) {
     font-size: 12px;
-    cursor: pointer;
     background-color: var(--accent-color);
     padding: .2rem;
     color: rgba(255, 255, 255, 0.847);

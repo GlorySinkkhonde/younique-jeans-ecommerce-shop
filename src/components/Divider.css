@@ -1,0 +1,4 @@
+.universal__divider{
+    border: 1px solid var(--main-color);
+    margin: 4rem 20%;
+}

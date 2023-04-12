@@ -1,0 +1,41 @@
+.testimonials-wrapper-heading{
+    text-align: center;
+    color: var(--main-color);
+    margin-top: 17rem;
+    margin-bottom: 4rem;
+}
+
+.testimonials-wrapper-heading > h1{
+    margin-bottom: .8rem;
+    font-size: 30px;
+}
+
+.testimonials-wrapper-heading > h3{
+    font-size: 17px;
+    font-weight: 400;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 900px) {
+
+body{
+    overflow-x: hidden;
+}
+
+.testimonials-wrapper-heading{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials-wrapper-heading > h1{
+    margin-bottom: .8rem;
+    font-size: 40px;
+}
+
+.testimonials-wrapper-heading > h3{
+    font-size: 18px;
+}
+
+}
+

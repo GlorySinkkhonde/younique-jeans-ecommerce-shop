@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import HeroImage from '../assets/images/hero-image.png'
+import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -14,7 +15,9 @@ function Hero() {
                 <h1 className='desktop__text'>unique physique</h1>
                 <h1 className='mobile__text'>The perfect jeans for your unique physique</h1>
                 <p> Find the right fit for you using our advanced search and an array of product images on different body types.</p>
-                <button>Shop</button>
+               <ButtonLink to='/shop'>Shop</ButtonLink>
+                
+                
             </div>
         </div>
 
@@ -23,6 +26,19 @@ function Hero() {
         <div className='circle-3'></div>
     </div>
     
+  )
+}
+
+function ButtonLink({ to, children, ...props }){
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+
+  return (
+      <button>
+          <Link to={to} {...props}>
+              {children}
+          </Link>
+      </button>
   )
 }
 

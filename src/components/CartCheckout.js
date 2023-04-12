@@ -1,5 +1,6 @@
 import React from 'react'
 import './CartCheckout.css'
+import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 function CartCheckout() {
   return (
@@ -8,10 +9,22 @@ function CartCheckout() {
             <h3>Subtotal</h3>
             <h3>$179.96</h3>
         </div>
-        <button className='checkout-btn'>Checkout</button>
-        <br></br>
-        <button className='checkout-shop-btn'>Continue Shopping</button>
+        <ButtonLink to='/'>Checkout</ButtonLink>
+        <ButtonLink to='/shop'>Continue Shopping</ButtonLink>
     </div>
+  )
+}
+
+function ButtonLink({ to, children, ...props }){
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+
+  return (
+      <button>
+          <Link to={to} {...props}>
+              {children}
+          </Link>
+      </button>
   )
 }
 

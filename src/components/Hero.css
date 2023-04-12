@@ -54,6 +54,11 @@ body{
     color: white;
 }
 
+.wrapper__text > button > a{
+    color: white;
+    text-decoration: none;
+}
+
 .wrapper__text > button:hover{
     background-color: var(--accent-color);
 }

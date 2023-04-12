@@ -1,15 +1,18 @@
 .products-section__container{
     width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
 }
 
-.product-1{
+.individual__product{
     border: 1px solid black;
     padding: 1.5rem;
-    margin: 6rem 0;
+    margin-bottom: 2rem;
 }
 
-.product-1__info{
+.product__info{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,15 +21,15 @@
     font-size: 14px;
 }
 
-.product-1__info > h3{
+.product__info > h3{
     font-weight: 600;
 }
 
-.product-1__info > :nth-child(2){
+.product__info > :nth-child(2){
     text-decoration: underline;
 }
 
-.add-to-cart-btn{
+.product__add-to-cart-btn{
     cursor: pointer;
     width: 100%;
     margin-top: 1rem;
@@ -38,18 +41,18 @@
     color: white;
 }
 
-.add-to-cart-btn:hover{
+.product__add-to-cart-btn:hover{
     background-color: var(--accent-color);
 }
 
 @media only screen and (max-width: 650px) {
 
-    .product-1__info{
+    .product__info{
         text-align: center;
         flex-direction: column;
     }
 
-    .product-1__info > :nth-child(1){
+    .product__info > :nth-child(1){
         margin-bottom: .5rem;
     }
 }
@@ -59,49 +62,33 @@
         overflow-x: hidden;
     }
 
-    .product-1__info{
+    .product__info{
         font-size: 16px;
     }
 
     .products-section__container{
-        width: 85%;
-        display: grid;
-        justify-content: center;
-        grid-template-columns: repeat(3, 1fr);
+        width: 95%;
     }
-    
-    .product-1{
-        width: 90%;
-        margin: 1.5rem 0;
+
+    .product__add-to-cart-btn{
+        font-size: 18px;
     }
 
 }
 
 @media only screen and (min-width: 901px) and (max-width:1550px) {
     
-    .product-1__info{
+    .product__info{
         text-align: center;
         flex-direction: column;
     }
 
-    .product-1__info > :nth-child(1){
+    .product__info > :nth-child(1){
         margin-bottom: .5rem;
     }
     
 }
 
-@media only screen and (min-width: 1100px) {
 
-    .products-section__container{
-        width: 75%;
-        margin: 0 auto;
-        transform: translateX(2%);
-    }
-    
-    .product-1{
-        width: 90%;
-    }
-    
-}
 
 

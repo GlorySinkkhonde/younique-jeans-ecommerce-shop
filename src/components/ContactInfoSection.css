@@ -59,6 +59,10 @@
         width: 60%;
     }
 
+    .contact__form > button{
+        font-size: 17px;
+    }
+
 }
 
 @media screen and (min-width: 1200px){
