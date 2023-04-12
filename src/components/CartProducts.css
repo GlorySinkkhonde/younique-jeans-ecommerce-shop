@@ -37,10 +37,6 @@ span{
     gap: .1rem;
 }
 
-.cart__product-section-2 > h3{
-    text-decoration: underline;
-}
-
 .product__counter > :nth-child(1), .product__counter > :nth-child(3) {
     font-size: 12px;
     background-color: var(--accent-color);
@@ -79,6 +75,11 @@ span{
 
     .cart__product-section-1 > img{
         width: 35%;
+    }
+
+    .cart__product-section-2 > h3{
+        text-decoration: underline;
+        font-size: 16px;
     }
 
     .product__counter > :nth-child(2) {
