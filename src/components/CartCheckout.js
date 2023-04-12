@@ -10,6 +10,7 @@ function CartCheckout() {
             <h3>$179.96</h3>
         </div>
         <ButtonLink to='/'>Checkout</ButtonLink>
+        <br></br>
         <ButtonLink to='/shop'>Continue Shopping</ButtonLink>
     </div>
   )
